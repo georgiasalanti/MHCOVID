@@ -1,0 +1,648 @@
+
+
+
+---------------------------------------------------------*
+ Post Pandemic Depression unpaired analysis 
+----------------------------------------------------------
+
+
+
+*Description of the data* 
+-------------------------------------
+
+
+
+ Number of unique studies: 80
+ Number of data points: 157
+ Table of timepoints
+
+  1   2   3   4 
+106  36   3  12 
+
+ Table of continuous (0) and binary (1) data points 
+
+ 0  1 
+83 74 
+
+ Data points per population 
+
+
+                    Adolescents              Adolescents,Adults 
+                              7                              14 
+                         Adults                        Children 
+                             74                               4 
+           Children,Adolescents     Children,Adolescents,Adults 
+                              3                               2 
+                        Elderly            Men from Adolescents 
+                             12                               1 
+    Men from Adolescents,Adults                 Men from Adults 
+                              4                               6 
+              Men from Children   Men from Children,Adolescents 
+                              1                               3 
+               Men from Elderly          Women from Adolescents 
+                              5                               1 
+  Women from Adolescents,Adults               Women from Adults 
+                              4                               7 
+            Women from Children Women from Children,Adolescents 
+                              1                               3 
+             Women from Elderly 
+                              5 
+
+*Meta-analysis of Dichotomous Outcomes* 
+-------------------------------------
+
+
+
+*All subgroups* 
+-------------------------------------
+
+Number of studies: k = 68
+
+Results for subgroups (random effects model):
+                                            k proportion           95%-CI  tau^2    tau
+out_pop = Adolescents,Adults                8     0.4590 [0.3013; 0.6254] 0.9513 0.9753
+out_pop = Children,Adolescents              2     0.2353 [0.0735; 0.5441] 0.9513 0.9753
+out_pop = Men from Children,Adolescents     2     0.2117 [0.0645; 0.5113] 0.9513 0.9753
+out_pop = Women from Children,Adolescents   2     0.2752 [0.0890; 0.5961] 0.9513 0.9753
+out_pop = Children                          4     0.2109 [0.0928; 0.4111] 0.9513 0.9753
+out_pop = Adolescents                       5     0.2193 [0.1064; 0.3985] 0.9513 0.9753
+out_pop = Adults                           30     0.2352 [0.1781; 0.3038] 0.9513 0.9753
+out_pop = Men from Adults                   1     0.3007 [0.0598; 0.7443]     --     --
+out_pop = Women from Adults                 1     0.2586 [0.0490; 0.7023]     --     --
+out_pop = Men from Adolescents,Adults       2     0.4391 [0.1683; 0.7518] 0.9513 0.9753
+out_pop = Women from Adolescents,Adults     2     0.4465 [0.1726; 0.7573] 0.9513 0.9753
+out_pop = Elderly                           3     0.0977 [0.0346; 0.2465] 0.9513 0.9753
+out_pop = Men from Elderly                  1     0.0674 [0.0105; 0.3298]     --     --
+out_pop = Women from Elderly                1     0.1298 [0.0215; 0.5030]     --     --
+out_pop = Men from Children                 1     0.4172 [0.0956; 0.8290]     --     --
+out_pop = Women from Children               1     0.4547 [0.1096; 0.8495]     --     --
+out_pop = Children,Adolescents,Adults       2     0.1560 [0.0456; 0.4168] 0.9513 0.9753
+                                                 Q    I^2
+out_pop = Adolescents,Adults              16996.04 100.0%
+out_pop = Children,Adolescents              328.38  99.7%
+out_pop = Men from Children,Adolescents     162.50  99.4%
+out_pop = Women from Children,Adolescents   148.96  99.3%
+out_pop = Children                          549.79  99.5%
+out_pop = Adolescents                      1262.15  99.7%
+out_pop = Adults                          10119.44  99.7%
+out_pop = Men from Adults                     0.00     --
+out_pop = Women from Adults                   0.00     --
+out_pop = Men from Adolescents,Adults      3439.87 100.0%
+out_pop = Women from Adolescents,Adults    7103.33 100.0%
+out_pop = Elderly                             7.72  74.1%
+out_pop = Men from Elderly                    0.00     --
+out_pop = Women from Elderly                  0.00     --
+out_pop = Men from Children                   0.00     --
+out_pop = Women from Children                 0.00     --
+out_pop = Children,Adolescents,Adults         3.98  74.9%
+
+Test for subgroup differences (random effects model):
+                     Q d.f. p-value
+Between groups   20.55   16  0.1965
+
+Prediction intervals for subgroups:
+                                                    95%-PI
+out_pop = Adolescents,Adults              [0.0632; 0.9143]
+out_pop = Children,Adolescents                            
+out_pop = Men from Children,Adolescents                   
+out_pop = Women from Children,Adolescents                 
+out_pop = Children                        [0.0024; 0.9670]
+out_pop = Adolescents                     [0.0093; 0.8940]
+out_pop = Adults                          [0.0388; 0.7009]
+out_pop = Men from Adults                                 
+out_pop = Women from Adults                               
+out_pop = Men from Adolescents,Adults                     
+out_pop = Women from Adolescents,Adults                   
+out_pop = Elderly                         [0.0000; 1.0000]
+out_pop = Men from Elderly                                
+out_pop = Women from Elderly                              
+out_pop = Men from Children                               
+out_pop = Women from Children                             
+out_pop = Children,Adolescents,Adults                     
+
+Details on meta-analytical method:
+- Random intercept logistic regression model
+- Maximum-likelihood estimator for tau^2 (assuming common tau^2 in subgroups)
+- Logit transformation
+
+*Women* 
+-------------------------------------
+
+Number of studies combined: k = 7
+
+                     proportion           95%-CI
+Random effects model     0.3129 [0.1519; 0.5367]
+Prediction interval             [0.0141; 0.9354]
+
+Quantifying heterogeneity:
+ tau^2 = 1.5843; tau = 1.2587; I^2 = 99.9%; H = 39.53 [37.46; 41.72]
+
+Quantifying residual heterogeneity:
+ tau^2 = 1.2412; tau = 1.1141; I^2 = 100.0% [100.0%; 100.0%]; H = 60.22 [56.28; 64.43]
+
+Test of heterogeneity:
+        Q d.f. p-value             Test
+  9377.73    6       0        Wald-type
+ 13303.04    6       0 Likelihood-Ratio
+
+Results for subgroups (random effects model):
+                                            k proportion           95%-CI  tau^2    tau
+out_pop = Women from Children,Adolescents   2     0.2749 [0.0745; 0.6409] 1.2412 1.1141
+out_pop = Women from Adults                 1     0.2586 [0.0378; 0.7560]     --     --
+out_pop = Women from Adolescents,Adults     2     0.4465 [0.1469; 0.7908] 1.2412 1.1141
+out_pop = Women from Elderly                1     0.1298 [0.0165; 0.5704]     --     --
+out_pop = Women from Children               1     0.4547 [0.0858; 0.8811]     --     --
+                                                Q    I^2
+out_pop = Women from Children,Adolescents  148.96  99.3%
+out_pop = Women from Adults                  0.00     --
+out_pop = Women from Adolescents,Adults   7103.33 100.0%
+out_pop = Women from Elderly                 0.00     --
+out_pop = Women from Children                0.00     --
+
+Test for subgroup differences (random effects model):
+                    Q d.f. p-value
+Between groups   1.93    4  0.7480
+
+Details on meta-analytical method:
+- Random intercept logistic regression model
+- Maximum-likelihood estimator for tau^2 (assuming common tau^2 in subgroups)
+- Logit transformation
+
+*Men* 
+-------------------------------------
+
+Review:     Meta-analysis of percentage of men 
+ diagnosed with Depression
+
+Number of studies combined: k = 7
+
+                     proportion           95%-CI
+Random effects model     0.2710 [0.1201; 0.5032]
+Prediction interval             [0.0090; 0.9384]
+
+Quantifying heterogeneity:
+ tau^2 = 1.8252; tau = 1.3510; I^2 = 99.9% [99.8%; 99.9%]; H = 27.41 [25.54; 29.42]
+
+Quantifying residual heterogeneity:
+ tau^2 = 1.1896; tau = 1.0907; I^2 = 99.9% [99.9%; 100.0%]; H = 42.44 [38.85; 46.36]
+
+Test of heterogeneity:
+       Q d.f. p-value             Test
+ 4508.37    6       0        Wald-type
+ 6222.96    6       0 Likelihood-Ratio
+
+Results for subgroups (random effects model):
+                                          k proportion           95%-CI  tau^2    tau
+out_pop = Men from Children,Adolescents   2     0.2113 [0.0554; 0.5503] 1.1896 1.0907
+out_pop = Men from Adults                 1     0.3007 [0.0483; 0.7849]     --     --
+out_pop = Men from Adolescents,Adults     2     0.4392 [0.1471; 0.7804] 1.1896 1.0907
+out_pop = Men from Elderly                1     0.0674 [0.0084; 0.3814]     --     --
+out_pop = Men from Children               1     0.4172 [0.0778; 0.8587]     --     --
+                                              Q    I^2
+out_pop = Men from Children,Adolescents  162.50  99.4%
+out_pop = Men from Adults                  0.00     --
+out_pop = Men from Adolescents,Adults   3439.87 100.0%
+out_pop = Men from Elderly                 0.00     --
+out_pop = Men from Children                0.00     --
+
+Test for subgroup differences (random effects model):
+                    Q d.f. p-value
+Between groups   3.73    4  0.4435
+
+Details on meta-analytical method:
+- Random intercept logistic regression model
+- Maximum-likelihood estimator for tau^2 (assuming common tau^2 in subgroups)
+- Logit transformation
+
+*Mixed sex* 
+-------------------------------------
+
+Review:     Mixed sex meta-analysis of prevalence of 
+ Depression
+
+Number of studies combined: k = 54
+
+                     proportion           95%-CI
+Random effects model     0.2452 [0.1970; 0.3008]
+Prediction interval             [0.0372; 0.7318]
+
+Quantifying heterogeneity:
+ tau^2 = 1.1043; tau = 1.0509; I^2 = 99.9% [99.8%; 99.9%]; H = 26.25 [25.61; 26.90]
+
+Quantifying residual heterogeneity:
+ tau^2 = 0.8825; tau = 0.9394; I^2 = 99.8% [99.8%; 99.8%]; H = 24.95 [24.29; 25.64]
+
+Test of heterogeneity:
+        Q d.f. p-value             Test
+ 36508.74   53       0        Wald-type
+ 48172.00   53       0 Likelihood-Ratio
+
+Results for subgroups (random effects model):
+                                        k proportion           95%-CI  tau^2    tau
+out_pop = Adolescents,Adults            8     0.4589 [0.3065; 0.6195] 0.8825 0.9394
+out_pop = Children,Adolescents          2     0.2354 [0.0770; 0.5319] 0.8825 0.9394
+out_pop = Children                      4     0.2110 [0.0959; 0.4028] 0.8825 0.9394
+out_pop = Adolescents                   5     0.2193 [0.1094; 0.3910] 0.8825 0.9394
+out_pop = Adults                       30     0.2351 [0.1800; 0.3011] 0.8825 0.9394
+out_pop = Elderly                       3     0.0977 [0.0360; 0.2390] 0.8825 0.9394
+out_pop = Children,Adolescents,Adults   2     0.1560 [0.0478; 0.4048] 0.8825 0.9394
+                                             Q    I^2
+out_pop = Adolescents,Adults          16996.04 100.0%
+out_pop = Children,Adolescents          328.38  99.7%
+out_pop = Children                      549.79  99.5%
+out_pop = Adolescents                  1262.15  99.7%
+out_pop = Adults                      10119.44  99.7%
+out_pop = Elderly                         7.72  74.1%
+out_pop = Children,Adolescents,Adults     3.98  74.9%
+
+Test for subgroup differences (random effects model):
+                     Q d.f. p-value
+Between groups   13.53    6  0.0354
+
+Prediction intervals for subgroups:
+                                                95%-PI
+out_pop = Adolescents,Adults          [0.0689; 0.9067]
+out_pop = Children,Adolescents                        
+out_pop = Children                    [0.0029; 0.9610]
+out_pop = Adolescents                 [0.0105; 0.8816]
+out_pop = Adults                      [0.0417; 0.6850]
+out_pop = Elderly                     [0.0000; 1.0000]
+out_pop = Children,Adolescents,Adults                 
+
+Details on meta-analytical method:
+- Random intercept logistic regression model
+- Maximum-likelihood estimator for tau^2 (assuming common tau^2 in subgroups)
+- Logit transformation
+
+*Meta-analysis and meta-regression in Adults* 
+-------------------------------------
+
+Review:     Meta-analysis of prevalence of Depression  
+ in both sexes and adults
+
+Number of studies combined: k = 30
+
+                     proportion           95%-CI
+Random effects model     0.2351 [0.1913; 0.2853]
+Prediction interval             [0.0633; 0.5830]
+
+Quantifying heterogeneity:
+ tau^2 = 0.5292; tau = 0.7274; I^2 = 99.7%; H = 18.68 [17.90; 19.49]
+
+Test of heterogeneity:
+        Q d.f. p-value             Test
+ 10119.44   29       0        Wald-type
+ 12047.28   29       0 Likelihood-Ratio
+
+Details on meta-analytical method:
+- Random intercept logistic regression model
+- Maximum-likelihood estimator for tau^2
+- Logit transformation
+
+*Meta-regression in Adults* 
+-------------------------------------
+
+
+Mixed-Effects Model (k = 28; tau^2 estimator: ML)
+
+tau^2 (estimated amount of residual heterogeneity):     0.5230
+tau (square root of estimated tau^2 value):             0.7232
+I^2 (residual heterogeneity / unaccounted variability): 99.8328%
+H^2 (unaccounted variability / sampling variability):   598.2165
+
+Tests for Residual Heterogeneity:
+Wld(df = 26) = 10013.9150, p-val < .0001
+LRT(df = 26) = 11935.9799, p-val < .0001
+
+Test of Moderators (coefficient 2):
+QM(df = 1) = 0.0578, p-val = 0.8100
+
+Model Results:
+
+            estimate      se     zval    pval    ci.lb    ci.ub 
+intrcpt      -1.3985  0.7008  -1.9956  0.0460  -2.7721  -0.0249  * 
+stringency    0.0023  0.0096   0.2404  0.8100  -0.0166   0.0212    
+
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Mixed-Effects Model (k = 30; tau^2 estimator: ML)
+
+tau^2 (estimated amount of residual heterogeneity):     0.5168
+tau (square root of estimated tau^2 value):             0.7189
+I^2 (residual heterogeneity / unaccounted variability): 99.8550%
+H^2 (unaccounted variability / sampling variability):   689.5134
+
+Tests for Residual Heterogeneity:
+Wld(df = 28) = 10010.7517, p-val < .0001
+LRT(df = 28) = 12019.5601, p-val < .0001
+
+Test of Moderators (coefficient 2):
+QM(df = 1) = 0.7083, p-val = 0.4000
+
+Model Results:
+
+               estimate      se     zval    pval    ci.lb    ci.ub 
+intrcpt         -1.4959  0.3980  -3.7584  0.0002  -2.2760  -0.7158  *** 
+timesince2019    0.0028  0.0033   0.8416  0.4000  -0.0037   0.0092      
+
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+
+*Meta-analysis of Continuous Outcomes* 
+-------------------------------------
+
+
+
+*All subgroups* 
+-------------------------------------
+
+Review:     Meta-analysis of mean scaled score for Depression
+
+Number of studies: k = 65
+
+Results for subgroups (random effects model):
+                                          k                   95%-CI  tau^2    tau
+out_pop = Adolescents,Adults              6 0.2229 [ 0.1434; 0.3024] 0.0098 0.0992
+out_pop = Adults                         32 0.2600 [ 0.2256; 0.2944] 0.0098 0.0992
+out_pop = Men from Adults                 4 0.1704 [ 0.0728; 0.2680] 0.0098 0.0992
+out_pop = Women from Adults               4 0.1881 [ 0.0905; 0.2857] 0.0098 0.0992
+out_pop = Adolescents                     1 0.2354 [ 0.0388; 0.4320]     --     --
+out_pop = Men from Adolescents            1 0.1546 [-0.0425; 0.3518]     --     --
+out_pop = Women from Adolescents          1 0.3138 [ 0.1146; 0.5131]     --     --
+out_pop = Elderly                         6 0.1262 [ 0.0460; 0.2064] 0.0098 0.0992
+out_pop = Men from Elderly                4 0.1153 [ 0.0148; 0.2158] 0.0098 0.0992
+out_pop = Women from Elderly              4 0.1455 [ 0.0457; 0.2453] 0.0098 0.0992
+out_pop = Women from Adolescents,Adults   1 0.1993 [ 0.0040; 0.3945]     --     --
+out_pop = Men from Adolescents,Adults     1 0.1306 [-0.0646; 0.3257]     --     --
+                                                Q    I^2
+out_pop = Adolescents,Adults             11928.63 100.0%
+out_pop = Adults                        106800.85 100.0%
+out_pop = Men from Adults                    5.97  49.8%
+out_pop = Women from Adults                 54.88  94.5%
+out_pop = Adolescents                        0.00     --
+out_pop = Men from Adolescents               0.00     --
+out_pop = Women from Adolescents             0.00     --
+out_pop = Elderly                           99.14  95.0%
+out_pop = Men from Elderly                   1.84   0.0%
+out_pop = Women from Elderly                 1.23   0.0%
+out_pop = Women from Adolescents,Adults      0.00     --
+out_pop = Men from Adolescents,Adults        0.00     --
+
+Test for subgroup differences (random effects model):
+                       Q d.f. p-value
+Between groups     20.13   11  0.0435
+Within groups  118892.53   53       0
+
+Prediction intervals for subgroups:
+                                                   95%-PI
+out_pop = Adolescents,Adults            [-0.0747; 0.5205]
+out_pop = Adults                        [ 0.0542; 0.4658]
+out_pop = Men from Adults               [-0.3073; 0.6481]
+out_pop = Women from Adults             [-0.2895; 0.6657]
+out_pop = Adolescents                                    
+out_pop = Men from Adolescents                           
+out_pop = Women from Adolescents                         
+out_pop = Elderly                       [-0.1718; 0.4242]
+out_pop = Men from Elderly              [-0.3652; 0.5958]
+out_pop = Women from Elderly            [-0.3344; 0.6253]
+out_pop = Women from Adolescents,Adults                  
+out_pop = Men from Adolescents,Adults                    
+
+Details on meta-analytical method:
+- Inverse variance method
+- DerSimonian-Laird estimator for tau^2 (assuming common tau^2 in subgroups)
+
+*Women* 
+-------------------------------------
+
+Review:     Meta-analysis of mean scaled score 
+ for Depression in women
+
+Number of studies combined: k = 10
+
+                                      95%-CI     z  p-value
+Random effects model 0.1870 [0.1667; 0.2074] 18.01 < 0.0001
+Prediction interval         [0.1164; 0.2577]               
+
+Quantifying heterogeneity:
+ tau^2 = 0.0008 [0.0007; 0.0076]; tau = 0.0288 [0.0264; 0.0869]
+ I^2 = 91.5% [86.4%; 94.6%]; H = 3.42 [2.71; 4.31]
+
+Quantifying residual heterogeneity:
+ tau^2 = 0.0006 [0.0003; 0.0061]; tau = 0.0238 [0.0159; 0.0781]
+ I^2 = 89.3% [80.5%; 94.1%]; H = 3.06 [2.26; 4.13]
+
+Test of heterogeneity:
+      Q d.f.  p-value
+ 105.27    9 < 0.0001
+
+Results for subgroups (random effects model):
+                                          k                  95%-CI  tau^2    tau     Q
+out_pop = Women from Adults               4 0.1908 [0.1662; 0.2153] 0.0006 0.0238 54.88
+out_pop = Women from Adolescents          1 0.3138 [0.2502; 0.3775]     --     --  0.00
+out_pop = Women from Elderly              4 0.1455 [0.1132; 0.1779] 0.0006 0.0238  1.23
+out_pop = Women from Adolescents,Adults   1 0.1993 [0.1495; 0.2490]     --     --  0.00
+                                          I^2
+out_pop = Women from Adults             94.5%
+out_pop = Women from Adolescents           --
+out_pop = Women from Elderly             0.0%
+out_pop = Women from Adolescents,Adults    --
+
+Test for subgroup differences (random effects model):
+                   Q d.f.  p-value
+Between groups 21.89    3 < 0.0001
+Within groups  56.11    6 < 0.0001
+
+Prediction intervals for subgroups:
+                                                  95%-PI
+out_pop = Women from Adults             [0.0752; 0.3064]
+out_pop = Women from Adolescents                        
+out_pop = Women from Elderly            [0.0211; 0.2700]
+out_pop = Women from Adolescents,Adults                 
+
+Details on meta-analytical method:
+- Inverse variance method
+- DerSimonian-Laird estimator for tau^2 (assuming common tau^2 in subgroups)
+- Jackson method for confidence interval of tau^2 and tau
+
+*Men* 
+-------------------------------------
+
+Review:     Meta-analysis of mean scaled score 
+ for Depression in men
+
+Number of studies combined: k = 10
+
+                                      95%-CI     z  p-value
+Random effects model 0.1521 [0.1385; 0.1656] 21.99 < 0.0001
+Prediction interval         [0.1110; 0.1931]               
+
+Quantifying heterogeneity:
+ tau^2 = 0.0003 [0.0001; 0.0021]; tau = 0.0164 [0.0110; 0.0461]
+ I^2 = 74.7% [52.8%; 86.5%]; H = 1.99 [1.46; 2.72]
+
+Quantifying residual heterogeneity:
+ tau^2 < 0.0001 [0.0000; 0.0006]; tau = 0.0051 [0.0000; 0.0240]
+ I^2 = 23.2% [0.0%; 65.9%]; H = 1.14 [1.00; 1.71]
+
+Test of heterogeneity:
+     Q d.f.  p-value
+ 35.64    9 < 0.0001
+
+Results for subgroups (random effects model):
+                                        k                  95%-CI   tau^2    tau    Q
+out_pop = Men from Adults               4 0.1681 [0.1599; 0.1763] <0.0001 0.0051 5.97
+out_pop = Men from Adolescents          1 0.1546 [0.1206; 0.1886]      --     -- 0.00
+out_pop = Men from Elderly              4 0.1151 [0.0893; 0.1409] <0.0001 0.0051 1.84
+out_pop = Men from Adolescents,Adults   1 0.1306 [0.1110; 0.1501]      --     -- 0.00
+                                        I^2
+out_pop = Men from Adults             49.8%
+out_pop = Men from Adolescents           --
+out_pop = Men from Elderly             0.0%
+out_pop = Men from Adolescents,Adults    --
+
+Test for subgroup differences (random effects model):
+                   Q d.f.  p-value
+Between groups 23.99    3 < 0.0001
+Within groups   7.81    6   0.2524
+
+Prediction intervals for subgroups:
+                                                95%-PI
+out_pop = Men from Adults             [0.1396; 0.1966]
+out_pop = Men from Adolescents                        
+out_pop = Men from Elderly            [0.0542; 0.1760]
+out_pop = Men from Adolescents,Adults                 
+
+Details on meta-analytical method:
+- Inverse variance method
+- DerSimonian-Laird estimator for tau^2 (assuming common tau^2 in subgroups)
+- Jackson method for confidence interval of tau^2 and tau
+
+*Mixed sex* 
+-------------------------------------
+
+Review:     Meta-analysis of mean scaled score 
+ for Depression in both sexes
+
+Number of studies combined: k = 45
+
+                                      95%-CI     z  p-value
+Random effects model 0.2369 [0.2078; 0.2661] 15.93 < 0.0001
+Prediction interval         [0.0341; 0.4397]               
+
+Quantifying heterogeneity:
+ tau^2 = 0.0099 [0.0088; 0.0308]; tau = 0.0994 [0.0938; 0.1755]
+ I^2 = 100.0%; H = 53.06 [52.23; 53.92]
+
+Quantifying residual heterogeneity:
+ tau^2 = 0.0100 [0.0089; 0.0321]; tau = 0.0999 [0.0941; 0.1793]
+ I^2 = 100.0% [100.0%; 100.0%]; H = 53.84 [52.96; 54.72]
+
+Test of heterogeneity:
+         Q d.f. p-value
+ 123896.80   44       0
+
+Results for subgroups (random effects model):
+                               k                  95%-CI  tau^2    tau         Q    I^2
+out_pop = Adolescents,Adults   6 0.2229 [0.1429; 0.3029] 0.0100 0.0999  11928.63 100.0%
+out_pop = Adults              32 0.2600 [0.2253; 0.2947] 0.0100 0.0999 106800.85 100.0%
+out_pop = Adolescents          1 0.2354 [0.0376; 0.4332]     --     --      0.00     --
+out_pop = Elderly              6 0.1262 [0.0455; 0.2069] 0.0100 0.0999     99.14  95.0%
+
+Test for subgroup differences (random effects model):
+                       Q d.f. p-value
+Between groups      9.05    3  0.0286
+Within groups  118828.61   41       0
+
+Prediction intervals for subgroups:
+                                        95%-PI
+out_pop = Adolescents,Adults [-0.0766; 0.5224]
+out_pop = Adults             [ 0.0529; 0.4671]
+out_pop = Adolescents                         
+out_pop = Elderly            [-0.1737; 0.4261]
+
+Details on meta-analytical method:
+- Inverse variance method
+- DerSimonian-Laird estimator for tau^2 (assuming common tau^2 in subgroups)
+- Jackson method for confidence interval of tau^2 and tau
+
+*Meta-analysis and meta-regression in Adults* 
+-------------------------------------
+
+Review:     Meta-analysis of mean scaled score 
+ for Depression in Adults
+
+Number of studies combined: k = 32
+
+                                      95%-CI     z  p-value
+Random effects model 0.2600 [0.2264; 0.2936] 15.15 < 0.0001
+Prediction interval         [0.0590; 0.4609]               
+
+Quantifying heterogeneity:
+ tau^2 = 0.0094 [0.0115; 0.0318]; tau = 0.0969 [0.1074; 0.1783]
+ I^2 = 100.0%; H = 58.70 [57.67; 59.74]
+
+Test of heterogeneity:
+         Q d.f. p-value
+ 106800.85   31       0
+
+Details on meta-analytical method:
+- Inverse variance method
+- DerSimonian-Laird estimator for tau^2
+- Q-profile method for confidence interval of tau^2 and tau
+
+*Meta-regression in Adults* 
+-------------------------------------
+
+
+Mixed-Effects Model (k = 29; tau^2 estimator: DL)
+
+tau^2 (estimated amount of residual heterogeneity):     0.0068 (SE = 0.0044)
+tau (square root of estimated tau^2 value):             0.0825
+I^2 (residual heterogeneity / unaccounted variability): 99.96%
+H^2 (unaccounted variability / sampling variability):   2585.29
+R^2 (amount of heterogeneity accounted for):            27.74%
+
+Test for Residual Heterogeneity:
+QE(df = 27) = 69802.8067, p-val < .0001
+
+Test of Moderators (coefficient 2):
+QM(df = 1) = 1.2399, p-val = 0.2655
+
+Model Results:
+
+            estimate      se    zval    pval    ci.lb   ci.ub 
+intrcpt       0.2127  0.0483  4.4040  <.0001   0.1180  0.3073  *** 
+stringency    0.0008  0.0007  1.1135  0.2655  -0.0006  0.0022      
+
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Mixed-Effects Model (k = 32; tau^2 estimator: DL)
+
+tau^2 (estimated amount of residual heterogeneity):     0.0124 (SE = 0.0072)
+tau (square root of estimated tau^2 value):             0.1112
+I^2 (residual heterogeneity / unaccounted variability): 99.97%
+H^2 (unaccounted variability / sampling variability):   3556.83
+R^2 (amount of heterogeneity accounted for):            0.00%
+
+Test for Residual Heterogeneity:
+QE(df = 30) = 106704.8965, p-val < .0001
+
+Test of Moderators (coefficient 2):
+QM(df = 1) = 4.6007, p-val = 0.0320
+
+Model Results:
+
+               estimate      se     zval    pval    ci.lb    ci.ub 
+intrcpt          0.4091  0.0722   5.6630  <.0001   0.2675   0.5507  *** 
+timesince2019   -0.0012  0.0006  -2.1449  0.0320  -0.0023  -0.0001    * 
+
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
