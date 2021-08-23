@@ -1,0 +1,34 @@
+
+ Number of unique studies: 6
+ Number of data points: 12
+ Table of timepoints
+
+2 
+6 
+
+ Data points per population 
+
+
+       Adolescents Adolescents,Adults             Adults 
+                 2                  2                  8 
+
+ --------- Meta-analysis of change scores between post minus pre-pandemic levels ------------ 
+
+Number of studies combined: k = 4
+
+                                       95%-CI    z p-value
+Random effects model 0.0239 [ 0.0104; 0.0373] 3.47  0.0005
+Prediction interval         [-0.0350; 0.0827]             
+
+Quantifying heterogeneity:
+ tau^2 = 0.0001 [0.0001; 0.0087]; tau = 0.0118 [0.0078; 0.0934];
+ I^2 = 98.4% [97.5%; 99.0%]; H = 8.01 [6.34; 10.13]
+
+Test of heterogeneity:
+      Q d.f.  p-value
+ 192.66    3 < 0.0001
+
+Details on meta-analytical method:
+- Inverse variance method
+- DerSimonian-Laird estimator for tau^2
+- Jackson method for confidence interval of tau^2 and tau

@@ -1,0 +1,136 @@
+
+
+
+---------------------------------------------------------*
+ Mean scaled score by sex: anxiety 
+----------------------------------------------------------
+
+
+
+*Description of the data* 
+-------------------------------------
+
+
+
+ Number of unique studies: 15
+ Number of data points: 32
+ Table of timepoints
+
+ 1  2 
+30  2 
+
+ Data points per population 
+
+
+           Men Adolescents     Men Adolescents,Adults                 Men Adults   Men Children,Adolescents                Men Elderly 
+                         2                          3                          8                          2                          1 
+         Women Adolescents   Women Adolescents,Adults               Women Adults Women Children,Adolescents              Women Elderly 
+                         2                          3                          8                          2                          1 
+
+*Only men* 
+-------------------------------------
+
+
+Number of studies combined: k = 6
+
+                                       95%-CI    z  p-value
+Random effects model 0.1941 [ 0.1149; 0.2733] 4.80 < 0.0001
+Prediction interval         [-0.1013; 0.4895]              
+
+Quantifying heterogeneity:
+ tau^2 = 0.0097 [0.0031; 0.0700]; tau = 0.0984 [0.0554; 0.2646];
+ I^2 = 99.5% [99.3%; 99.6%]; H = 13.75 [12.11; 15.61]
+
+Quantifying residual heterogeneity:
+ tau^2 = 0.0076; tau = 0.0872; I^2 = 99.5% [99.3%; 99.6%]; H = 14.04 [11.95; 16.49]
+
+Test of heterogeneity:
+      Q d.f.  p-value
+ 945.83    5 < 0.0001
+
+Results for subgroups (random effects model):
+                                   k                  95%-CI  tau^2    tau      Q   I^2
+out_pop = Men Adults               4 0.1670 [0.0812; 0.2528] 0.0076 0.0872 591.34 99.5%
+out_pop = Men Adolescents          1 0.2022 [0.0285; 0.3760]     --     --   0.00    --
+out_pop = Men Adolescents,Adults   1 0.2952 [0.1226; 0.4679]     --     --   0.00    --
+
+Test for subgroup differences (random effects model):
+                    Q d.f.  p-value
+Between groups   1.71    2   0.4254
+Within groups  591.34    3 < 0.0001
+
+Details on meta-analytical method:
+- Inverse variance method
+- DerSimonian-Laird estimator for tau^2 (assuming common tau^2 in subgroups)
+- Jackson method for confidence interval of tau^2 and tau
+
+*Only women* 
+-------------------------------------
+
+
+Number of studies combined: k = 6
+
+                                       95%-CI    z  p-value
+Random effects model 0.2502 [ 0.1568; 0.3436] 5.25 < 0.0001
+Prediction interval         [-0.0985; 0.5989]              
+
+Quantifying heterogeneity:
+ tau^2 = 0.0135 [0.0047; 0.1237]; tau = 0.1162 [0.0688; 0.3516];
+ I^2 = 99.7% [99.6%; 99.7%]; H = 17.82 [16.03; 19.81]
+
+Quantifying residual heterogeneity:
+ tau^2 = 0.0100; tau = 0.1001; I^2 = 99.7% [99.6%; 99.7%]; H = 17.37 [15.12; 19.95]
+
+Test of heterogeneity:
+       Q d.f. p-value
+ 1587.63    5       0
+
+Results for subgroups (random effects model):
+                                     k                  95%-CI  tau^2    tau      Q   I^2
+out_pop = Women Adults               4 0.2104 [0.1119; 0.3088] 0.0100 0.1001 904.93 99.7%
+out_pop = Women Adolescents          1 0.3622 [0.1616; 0.5628]     --     --   0.00    --
+out_pop = Women Adolescents,Adults   1 0.3000 [0.1030; 0.4970]     --     --   0.00    --
+
+Test for subgroup differences (random effects model):
+                    Q d.f.  p-value
+Between groups   2.07    2   0.3550
+Within groups  904.93    3 < 0.0001
+
+Details on meta-analytical method:
+- Inverse variance method
+- DerSimonian-Laird estimator for tau^2 (assuming common tau^2 in subgroups)
+- Jackson method for confidence interval of tau^2 and tau
+Number of studies combined: k = 12
+
+                                      95%-CI     z  p-value
+Random effects model 0.2195 [0.1930; 0.2460] 16.23 < 0.0001
+
+Quantifying heterogeneity:
+ tau^2 = 0.0021 [0.0029; 0.0369]; tau = 0.0456 [0.0541; 0.1921];
+ I^2 = 99.6% [99.5%; 99.6%]; H = 15.27 [14.10; 16.53]
+
+Quantifying residual heterogeneity:
+ tau^2 = 0.0089; tau = 0.0944; I^2 = 99.6% [99.5%; 99.7%]; H = 15.79 [14.21; 17.54]
+
+Test of heterogeneity:
+       Q d.f. p-value
+ 2563.40   11       0
+
+Results for subgroups (random effects model):
+                                     k                  95%-CI  tau^2    tau      Q   I^2
+out_pop = Men Adults                 4 0.1671 [0.0743; 0.2598] 0.0089 0.0944 591.34 99.5%
+out_pop = Women Adults               4 0.2103 [0.1175; 0.3032] 0.0089 0.0944 904.93 99.7%
+out_pop = Men Adolescents            1 0.2022 [0.0147; 0.3898]     --     --   0.00    --
+out_pop = Women Adolescents          1 0.3622 [0.1726; 0.5518]     --     --   0.00    --
+out_pop = Men Adolescents,Adults     1 0.2952 [0.1087; 0.4818]     --     --   0.00    --
+out_pop = Women Adolescents,Adults   1 0.3000 [0.1142; 0.4858]     --     --   0.00    --
+
+Test for subgroup differences (random effects model):
+                     Q d.f.  p-value
+Between groups    4.82    5   0.4383
+Within groups  1496.27    6 < 0.0001
+
+Details on meta-analytical method:
+- Inverse variance method
+- DerSimonian-Laird estimator for tau^2 (assuming common tau^2 in subgroups)
+- Jackson method for confidence interval of tau^2 and tau
